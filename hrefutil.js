@@ -1,3 +1,4 @@
+if (module && module.exports) module.exports = createBookmarkletHref;
 function createBookmarkletHref (name, url) {
   var bookmarklet = "window.a11y" + name;
   var scriptname = name.toLowerCase() + '.js';
